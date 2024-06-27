@@ -47,6 +47,13 @@
     "@sentry/react": "7.114.0",
     "@sentry/vue": "7.114.0"
   },
+  "overrides": {
+    "@sentry/angular": {
+      "@angular/common": "*",
+      "@angular/core": "*",
+      "@angular/router": "*"
+    }
+  },
   "peerDependenciesMeta": {
     "@sentry/angular-ivy": {
       "optional": true
